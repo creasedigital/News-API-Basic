@@ -1,0 +1,30 @@
+html, body {
+    font-size: 62.5%;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.quoteBody{
+    font-size: 4.8rem;
+    color: #00ccef; 
+    font-family: 'Quattrocento', serif;
+    font-weight: 700;
+}
+
+.btn{
+    border-radius: 24px !important;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+
+button.btn ,a.tweetQuote, a.quoteUrl ,p{
+font-size: 2rem;
+}
+
+
+.quoteUrl{
+    display: none;
+}
