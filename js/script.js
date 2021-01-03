@@ -18,6 +18,8 @@ $('.read').on('click', () => {
 
     $('.quoteAuthor').html(currentQuote.author)
     $('.quoteBody').html(currentQuote.title)
+
+    $('.read').html('<i class="far fa-newspaper mr-2"></i>Show Me One More')
     $('.tweetQuote').attr({href: 'https://twitter.com/intent/tweet?text= ' + currentQuote.title + ' - ' + currentQuote , 
         target: '_blank'
         })
@@ -31,6 +33,8 @@ $('.read').on('click', () => {
         $('.quoteUrl').attr({href: currentQuote.url, 
     target: '_blank'
     })
+
+
     })
 })
 
